@@ -4,7 +4,7 @@ Este repositório contém dois scripts Python que utilizam a biblioteca `yfinanc
 
 ### Arquivos
 
-#### 1. **Listando_melhores_acoes_Nasdaq.py**
+#### 1. **Listando_melhores_acoes_americanas.py**
 
 Este script tem como objetivo listar as 20 ações que:
 - Mais pagaram dividendos no ano atual.
@@ -33,7 +33,7 @@ Este script tem como objetivo listar as 20 ações que:
 - `requests_cache`
 - `warnings`
 
-#### 2. **Verificar_Dividendo_Acoes_Nasdaq.py**
+#### 2. **Pesquisa_acoes_americanas.py**
 
 Este script permite ao usuário verificar os dividendos de uma ação específica.
 
@@ -78,16 +78,16 @@ Certifique-se de ter o Python instalado em sua máquina. Recomenda-se o uso de u
 
 ### Como Executar os Scripts
 
-#### 1. **Listando_melhores_acoes_Nasdaq.py**
+#### 1. **Listando_melhores_acoes_americanas.py**
 Execute o script para listar as melhores ações em dividendos e valorização:
 ```bash
-python Listando_melhores_acoes_Nasdaq.py
+python Listando_melhores_acoes_americanas.py
 ```
 
-#### 2. **Verificar_Dividendo_Acoes_Nasdaq.py**
+#### 2. **Pesquisa_acoes_americanas.py**
 Execute o script para consultar informações específicas de uma ação:
 ```bash
-python Verificar_Dividendo_Acoes_Nasdaq.py
+python Pesquisa_acoes_americanas.py
 ```
 
 Durante a execução, insira o símbolo da ação que deseja consultar ou digite `sair` para encerrar.
